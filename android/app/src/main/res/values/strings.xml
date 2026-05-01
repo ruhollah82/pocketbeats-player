@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pocket Beats</string>
+    <string name="title_activity_main">Pocket Beats</string>
+    <string name="package_name">com.pocketbeats.player</string>
+    <string name="custom_url_scheme">com.pocketbeats.player</string>
+</resources>

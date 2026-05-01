@@ -1,11 +1,60 @@
 @import "tailwindcss";
 
+:root {
+  font-family: Satoshi, Avenir Next, Montserrat, ui-sans-serif, sans-serif;
+  color: #0f172a;
+  background: #f5efe4;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #f5efe4;
+  overscroll-behavior: none;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  touch-action: manipulation;
+}
+
+button,
+a {
+  touch-action: manipulation;
+}
+
+button {
+  cursor: pointer;
 }
 
 #root {
   min-height: 100vh;
+}
+
+.control-button {
+  display: grid;
+  height: 3.5rem;
+  width: 3.5rem;
+  place-items: center;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.control-button:active {
+  transform: scale(0.94);
+}
+
+.control-button:hover {
+  background: rgba(255, 255, 255, 0.2);
 }

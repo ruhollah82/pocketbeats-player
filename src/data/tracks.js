@@ -1,0 +1,38 @@
+export const tracks = [
+  {
+    id: 'morning-drift',
+    title: 'Morning Drift',
+    artist: 'SoundHelix',
+    album: 'Open Stream Sessions',
+    duration: '6:12',
+    color: 'from-amber-300 via-orange-400 to-rose-500',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+  },
+  {
+    id: 'neon-canal',
+    title: 'Neon Canal',
+    artist: 'SoundHelix',
+    album: 'Open Stream Sessions',
+    duration: '5:44',
+    color: 'from-cyan-300 via-blue-500 to-indigo-600',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+  },
+  {
+    id: 'cedar-radio',
+    title: 'Cedar Radio',
+    artist: 'SoundHelix',
+    album: 'Open Stream Sessions',
+    duration: '5:06',
+    color: 'from-emerald-300 via-teal-500 to-slate-700',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+  },
+  {
+    id: 'city-sundown',
+    title: 'City Sundown',
+    artist: 'SoundHelix',
+    album: 'Open Stream Sessions',
+    duration: '6:00',
+    color: 'from-fuchsia-300 via-pink-500 to-red-500',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+  },
+]
